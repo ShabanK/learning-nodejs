@@ -13,14 +13,22 @@ Readable streams are an abstraction for a source from which data is consumed.
 
 Examples of Readable streams include:
 
-HTTP responses, on the client
-HTTP requests, on the server
-fs read streams
-zlib streams
-crypto streams
-TCP sockets
-child process stdout and stderr
-process.stdin
+HTTP responses, on the client;
+
+HTTP requests, on the server;
+
+fs read streams;
+
+zlib streams;
+
+crypto streams;
+
+TCP sockets;
+
+child process stdout and stderr;
+
+process.stdin;
+
 All Readable streams implement the interface defined by the stream.Readable class.
 
 to create an interface... we use readline.createInterface(obj). in this object we pass two attributes(?), the choice of input stream and the choice of output stream. in rl.js, process.stdin is used as input and process.stdout is used as as the output stream.
@@ -31,13 +39,21 @@ Writable streams are an abstraction for a destination to which data is written.
 
 Examples of Writable streams include:
 
+
 HTTP requests, on the client
+
 HTTP responses, on the server
+
 fs write streams
+
 zlib streams
+
 crypto streams
+
 TCP sockets
+
 child process stdin
+
 process.stdout, process.stderr
 
 
