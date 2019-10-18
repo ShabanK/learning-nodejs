@@ -3,7 +3,11 @@ I'm no expert at writing. This readme is for me anyways so... yeah
 
 Starting off with: eventEmitter
 
-cool stuff. i can emit events... thats about it. i mean.. the name really couldn't be anymore accurate than that. those events can act as terminators or initiators for event listeners. i think
+cool stuff. i can emit events... thats about it. i mean.. the name really couldn't be anymore accurate than that. those events can act as terminators or initiators for event listeners. i think.
+
+lets say we have an eventEmitter called ee... ee.on(event, callback(s?)) will act as an event listener, taking two parameters, the event that triggers it and the call back function(s)(?) that gets executed. ee.emit(event) is used to emit an event whenever you want. if you only want an eventEmitter object to do a thing once and not more than that, ee.on can be replaced by ee.once().
+
+ALWAYS READ THE DOCS!!!
 
 next up is readline. its an extension of eventEmitter. it requires closing via rl.close(), assuming we have an object named rl.
 
