@@ -43,7 +43,6 @@ Writable streams are an abstraction for a destination to which data is written.
 
 Examples of Writable streams include:
 
-
 HTTP requests, on the client
 
 HTTP responses, on the server
@@ -64,7 +63,16 @@ side-note: str.trim() is always good to use on user-inputs
 
 rl.close() triggers an event called 'close'. so it can be used in eventEmitters and such.
 
-line breaks and return key press trigger events called 'line'. 
+line breaks and return key press trigger events called 'line'.
 
 'pause' and 'resume' events also exist and a bunch of others... check the docs.
 
+rl.prompt() and rl.setPrompt("some string") are also a thing
+
+fs:
+
+fs.write(filename, whatever strings you wanna enter here, callback for errors and such)
+fs.read(filename, coding scheme ,(err, file)=> { the file variable has all the content of the file })
+fs.append(filename, whatever strings you wanna enter here, callback for errors and such) also creates the file if not available
+fs.rename(filename, new filename, callback for errors and such);
+fs.unlink(filename, callback for errors and such) to delete the file
