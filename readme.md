@@ -62,3 +62,9 @@ process.stdout, process.stderr
 
 side-note: str.trim() is always good to use on user-inputs
 
+rl.close() triggers an event called 'close'. so it can be used in eventEmitters and such.
+
+line breaks and return key press trigger events called 'line'. 
+
+'pause' and 'resume' events also exist and a bunch of others... check the docs.
+
