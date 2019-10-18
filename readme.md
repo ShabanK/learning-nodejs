@@ -56,5 +56,5 @@ child process stdin
 
 process.stdout, process.stderr
 
-
+side-note: str.trim() is always good to use on user-inputs
 
