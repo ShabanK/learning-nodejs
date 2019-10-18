@@ -71,8 +71,18 @@ rl.prompt() and rl.setPrompt("some string") are also a thing
 
 fs:
 
-fs.write(filename, whatever strings you wanna enter here, callback for errors and such)
-fs.read(filename, coding scheme ,(err, file)=> { the file variable has all the content of the file })
-fs.append(filename, whatever strings you wanna enter here, callback for errors and such) also creates the file if not available
+fs.writeFile(filename, whatever strings you wanna enter here, callback for errors and such)
+
+fs.readFile(filename, coding scheme ,(err, file)=> { the file variable has all the content of the file })
+
+fs.appendFile(filename, whatever strings you wanna enter here, callback for errors and such) also creates the file if not available
+
 fs.rename(filename, new filename, callback for errors and such);
+
 fs.unlink(filename, callback for errors and such) to delete the file
+
+fs.mkdir(dirname, callback for errors and such)
+
+fs.rmdir(dirname, callback for errors and such) //only works on empty folder
+
+fs.readdir(dirname, callback for errors and such)) // displays an array of files and folders within the folder
