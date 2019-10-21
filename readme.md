@@ -86,3 +86,17 @@ fs.mkdir(dirname, callback for errors and such)
 fs.rmdir(dirname, callback for errors and such) //only works on empty folder
 
 fs.readdir(dirname, callback for errors and such)) // displays an array of files and folders within the folder
+
+let readstream = fs.createReadStream(file_path, coding_scheme)... this is also an extension of the eventEmitter class
+
+readstream.on('data', (data)=>{
+...
+}) works like eventEmitter
+
+let writestream = fs.createWriteStream(filename);
+
+writestream.write("whatever");
+
+Why should I used streams in the first place? standard readfile works fine right?
+
+Basically, if i try to read a file that is larger than its buffer size, it won't be processed by it. so, a stream divides it in chunks and buffers it in chunk by chunk.
