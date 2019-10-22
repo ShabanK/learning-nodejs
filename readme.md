@@ -104,3 +104,12 @@ Basically, if i try to read a file that is larger than its buffer size, it won't
 pipe... basically a channel between streams.
 
 gzip and gunzip... zips and unzips file
+
+const http = require("http");
+http.createServer((req,res)=>{
+//req.url is a property
+//res.write is a method
+//always remember to res.end
+})
+
+server.listen(portnumber);
