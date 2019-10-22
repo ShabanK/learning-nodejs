@@ -100,3 +100,7 @@ writestream.write("whatever");
 Why should I used streams in the first place? standard readfile works fine right?
 
 Basically, if i try to read a file that is larger than its buffer size, it won't be processed by it. so, a stream divides it in chunks and buffers it in chunk by chunk.
+
+pipe... basically a channel between streams.
+
+gzip and gunzip... zips and unzips file
