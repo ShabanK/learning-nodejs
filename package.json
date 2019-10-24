@@ -7,5 +7,7 @@
   "author": "ShabanK <nooneyouwillknow@gmail.com>",
   "license": "MIT",
   "private": false,
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

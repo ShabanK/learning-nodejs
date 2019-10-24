@@ -131,3 +131,17 @@ add a ^ to get updates for minor versions and patches ^MAJOR.MINOR.PATCH
 add a ~ to get updates for patches ~MAJOR.MINOR.PATCH
 
 add nothing to stay on the same exact version forever
+
+EXPRESS YAY!!!!!
+
+add express from yarn or npm
+
+require it
+
+express() returns the object that is conventionally named app
+
+app.get(route, callback with req/res)
+
+res.send is a thing apparently
+
+app.listen(portnumber)
