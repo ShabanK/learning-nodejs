@@ -113,7 +113,3 @@ http.createServer((req,res)=>{
 })
 
 server.listen(portnumber);
-
-res.writeHead(status_code, {"Content-type": "..."} ) // status code tells us the type of response received.. for instance, 404 means that our desired destination was not found. also.. content types include... application/json, text/plain, image/png or whatever, text/html etc....
-
-readstream.pipe(res);
