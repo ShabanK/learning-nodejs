@@ -145,3 +145,9 @@ app.get(route, callback with req/res)
 res.send is a thing apparently
 
 app.listen(portnumber)
+
+so route paramaters a thing... you can define parameters as such "/somePath/:param1/:param2"
+
+and these can be accessed as such req.params.param1 or 2
+
+also route queries are a thing. if you enter ?var1=value1&var2=value2... then var1 and var2 will be stored in req.query
