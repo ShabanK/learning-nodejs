@@ -3,7 +3,7 @@ const fs = require("fs");
 
 http
   .createServer((req, res) => {
-    const read = fs.createReadStream("./readme.md");
+    const read = fs.createReadStream("./httpFsExample/readme.md");
     res.writeHead(200, { "Content-type": "text/plain" });
     read.pipe(res);
   })
