@@ -1,0 +1,10 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "practice/tutorials",
+  "main": "index.js",
+  "repository": "https://github.com/ShabanK/learning-nodejs.git",
+  "author": "ShabanK <nooneyouwillknow@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
