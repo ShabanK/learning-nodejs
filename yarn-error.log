@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe D:\Yarn\bin\yarn.js add lodash
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Git\cmd;C:\Program Files\nodejs\;D:\Yarn\bin\;C:\ProgramData\chocolatey\bin;D:\Java\bin;D:\Python\Python37-32\Scripts\;D:\Python\Python37-32\;C:\Users\Shaban\AppData\Local\Microsoft\WindowsApps;C:\Users\Shaban\AppData\Roaming\npm;C:\Users\Shaban\AppData\Local\Yarn\bin;C:\Users\Shaban\AppData\Local\Programs\Microsoft VS Code\bin;
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com registry.yarnpkg.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+
+npm manifest: 
+  {
+    "name": "node",
+    "version": "1.0.0",
+    "description": "practice/tutorials",
+    "main": "index.js",
+    "repository": "https://github.com/ShabanK/learning-nodejs.git",
+    "author": "ShabanK <nooneyouwillknow@gmail.com>",
+    "license": "MIT",
+    "private": false
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

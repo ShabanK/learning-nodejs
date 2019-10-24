@@ -116,4 +116,18 @@ server.listen(portnumber);
 
 res.writeHead(status_code, {"Content-type": "..."} ) // status code tells us the type of response received.. for instance, 404 means that our desired destination was not found. also.. content types include... application/json, text/plain, image/png or whatever, text/html etc....
 
-readstream.pipe(res);
+readstream.pipe(res); // res also serves as a stream
+
+next up was package managers but being the absolute chad i am... i did it with yarn
+
+yarn add pkgname
+
+yarn remove pkgname
+
+semantics for versioning: MAJOR.MINOR.PATCH
+
+add a ^ to get updates for minor versions and patches ^MAJOR.MINOR.PATCH
+
+add a ~ to get updates for patches ~MAJOR.MINOR.PATCH
+
+add nothing to stay on the same exact version forever
