@@ -153,3 +153,5 @@ and these can be accessed as such req.params.param1 or 2
 also route queries are a thing. if you enter ?var1=value1&var2=value2... then var1 and var2 will be stored in req.query
 
 > realization that i shouldve prolly mentioned which information correlates with which file...
+
+> time to scrap this and start from scratch... cant understand this tutorial.. might be because im kinda stupid
